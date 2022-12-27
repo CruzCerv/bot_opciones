@@ -144,7 +144,7 @@ html,body{
 .input-data input:focus::placeholder{
     color: #999999;
 }*/
-.wrapper .typing-field .input-data button{
+.wrapper .typing-field .input-data .boton{
     position: absolute;
     right: 5px;
     top: 50%;
@@ -162,10 +162,19 @@ html,body{
     transform: translateY(-50%);
     transition: all 0.3s ease;
 }
-.wrapper .typing-field .input-data input:valid ~ button{
+.wrapper .typing-field .input-data input:valid ~ .boton{
     opacity: 1;
     pointer-events: auto;
 }
-.typing-field .input-data button:hover{
+.typing-field .input-data .boton:hover{
     background: #fd7d1c;
+}
+.form .user-inbox .msg-header .preguntas {
+    list-style: none;
+}
+.form .user-inbox .msg-header ul {
+    list-style: none;
+}
+.form .user-inbox .msg-header li {
+    list-style: none;
 }
